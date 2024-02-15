@@ -13,6 +13,7 @@ import java.util.*;
  * Class used to execute Discord Webhooks with low effort
  * Come from: https://gist.github.com/k3kdude/fba6f6b37594eae3d6f9475330733bdb
  */
+@SuppressWarnings("all") //used for Typos(IntelliJ) and for Class exposed outside its defined visibility scope
 public class DiscordWebhook {
 
     private final String url;

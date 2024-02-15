@@ -39,6 +39,7 @@ public final class Main extends Plugin {
 
     private FileManager manager;
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     private void createFiles() {
         File folder = new File("plugins/OnlineChecker/");
         if (!folder.exists()) folder.mkdir();
