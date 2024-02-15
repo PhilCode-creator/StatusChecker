@@ -9,7 +9,7 @@ import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import java.awt.*;
 import java.io.File;
-
+@SuppressWarnings("unused")
 public final class Main extends Plugin {
 
     private String webhook;
